@@ -12,5 +12,20 @@
         "description": "La conciencia es la Ley rudimientaria de Dios.",
         "img":"/conciencia.jpg",
         "src":"/conciencia.mp3"
+    },
+    {
+        "id": 3,
+        "name": "Aprobación",
+        "description": "Cuando buscamos la aprovación del hombre en vez de la Dios.",
+        "img":"/aprobacion.jpeg",
+        "src":"/BUSCA DE APROBACION 2 IMPACTO.mp3"
+    },
+    {
+        "id": 4,
+        "name": "Avanzar",
+        "description": "Continuar y avanzar es confiar en Dios.",
+        "img":"/continua.jpeg",
+        "src":"/continua y avanza.mp3"
     }
+
 ]
