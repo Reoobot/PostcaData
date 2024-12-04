@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Profesion",
+        "description": "La profesión en Cirsto Jesús es por Fe.",
+        "img":"/profesion.png",
+        "src":"/1 profesion.mp3"
+    },
+    {
+        "id": 2,
+        "name": "Conciencia",
+        "description": "La conciencia es la Ley rudimientaria de Dios.",
+        "img":"/conciencia.jpg",
+        "src":"/conciencia.jpg"
+    }
+]
