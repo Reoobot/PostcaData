@@ -26,6 +26,13 @@
         "description": "Continuar y avanzar es confiar en Dios.",
         "img":"/continua.jpeg",
         "src":"/continua y avanza.mp3"
+    },
+    {
+        "id": 5,
+        "name": "Aceptarce a uno mismo",
+        "description": "Continuar y avanzar es confiar en Dios.",
+        "img":"/aceptar.jpeg",
+        "src":"/ACEPTARSE A UNO MISMO.mp3"
     }
 
 ]
