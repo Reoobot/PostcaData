@@ -1,0 +1,185 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    min-height: 100px;
+}
+
+header {
+    background-color: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Carrusel */
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    width: 50%;
+    overflow: hidden;
+}
+
+#carousel {
+    display: flex;
+    gap: 20px;
+    transition: transform 0.5s ease-in-out;
+    will-change: transform; /* Mejora el rendimiento del movimiento */
+}
+
+.carousel-item {
+    width: 100%; /* Ajusta el tamaño mínimo de los ítems */
+    flex: 0 0 auto;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.carousel-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.carousel-item h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.carousel-item p {
+    font-size: 0.9rem;
+    color: #666;
+    padding: 0 10px;
+}
+
+/* Footer dinámico */
+footer.podcast-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #222;
+    color: white;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    display: none; /* Visible dinámicamente */
+    flex-direction: column;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    z-index: 1001;
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .carousel-container {
+        display: flex;
+        justify-content: center;
+        margin: 20px auto;
+        width: 90%;
+        overflow: hidden;
+    }
+    .carousel-item {
+        min-width: 100%; /* Tamaño reducido en pantallas pequeñas */
+    }
+
+    footer.podcast-footer {
+        padding: 10px; /* Reducimos el padding */
+    }
+
+    .close-button {
+        font-size: 1.2rem;
+        top: 5px;
+        right: 10px;
+    }
+}
+
+
+
+/* Estilos para los episodios */
+.episode {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.episode:hover {
+    background: #f0f0f0;
+}
+
+.episode-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.episode-info h5 {
+    margin: 0;
+    font-size: 1rem;
+    color: #b5afaf;
+}
+
+.episode-info p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #e8d9d9;
+}
+
+/* Footer dinámico ajustes */
+footer.podcast-footer {
+    flex-direction: column;
+    padding: 20px;
+    max-height: 50vh;
+    overflow-y: auto;
+}
+
+footer.podcast-footer .season {
+    margin-bottom: 10px;
+}
+audio {
+    width: 100%;
+    margin-top: 10px;
+    border: none; /* Eliminamos bordes para una apariencia limpia */
+    background: #f9f9f9; /* Color de fondo para el reproductor */
+    outline: none; /* Eliminamos el borde de enfoque */
+}
+
+footer.podcast-footer audio {
+    display: block; /* Aseguramos que se muestre como un bloque */
+    margin: 10px 0;
+    max-width: 100%; /* Aseguramos que no se desborde */
+}

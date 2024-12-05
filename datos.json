@@ -49,7 +49,7 @@
                 "number": 1,
                 "episodes": [
                     { "img":"/mujerestudia.avif","title": "Episodio 1", "capitulo":"Toda mujer seguidora de cristo su oración esta en la palabra de Dios", "audio": "" },
-                    { "img":"/mujeridentidad.avif","title": "Episodio2", "capitulo":"Quien soy en Cristo Jesús como mujer", "audio": "" }
+                    { "img":"/mujeridentidad.avif","title": "Episodio ", "capitulo":"Quien soy en Cristo Jesús como mujer", "audio": "" }
                 ]
             }
         ]
