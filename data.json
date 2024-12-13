@@ -56,11 +56,8 @@
     },
     {
         "id":4,
-        "name": "/Radio.png",
+        "name": "Radio",
         "description": "",
-        "img": "/mujeres.avif"
+        "img": "/Radio.png"
     }
-   
-
-   
 ]
