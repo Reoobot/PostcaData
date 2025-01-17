@@ -32,8 +32,8 @@
             {
                 "number": 1,
                 "episodes": [
-                    { "img":"/identidad.avif","title": "Episodio 1", "capitulo":"Mi identidad en Cristo Jesús", "audio": "" },
-                    { "img":"/identidad2.avif","title": "Episodio ", "capitulo":"Quien soy en Cristo Jesús", "audio": "" }
+                    { "img":"/Perdon.jpg","title": "Episodio 1", "capitulo":"Perdón y Restauración trae liberación", "audio": "/PerdonYRestauracion.mp3" },
+                    { "img":"/sabiduria.jpg","title": "Episodio 2", "capitulo":"Al momento de decidir la Sabiduría de Dios nos guía", "audio": "/CristoMiSabiduria.mp3" }
                 ]
             }
         ]
@@ -53,14 +53,7 @@
                 ]
             }
         ]
-    },
-    {
-        "id":4,
-        "name": "/Radio.png",
-        "description": "",
-        "img": "/mujeres.avif"
     }
-   
 
    
 ]
